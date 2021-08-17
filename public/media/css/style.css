@@ -1,0 +1,89 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+.dashboard-widget {
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    position: relative;
+    min-height: 80vh;
+}
+
+#nav {
+    padding: 30px;
+}
+
+#nav a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+    color: #42b983;
+}
+
+.bg-light {
+    /* background-color: #17a2b8!important; */
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    /* min-height: 100vh; */
+    /* These two lines are counted as one :-)       */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#nprogress .bar {
+    background: #6610f2!important;
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px!important;
+}
+
+.table div {
+    display: contents;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    border-bottom: 3px solid transparent!important;
+    margin-right: 5px!important;
+    padding: 10px 30px!important;
+    color: #000!important;
+    opacity: .9!important;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .router-link-active,
+.navbar-light .navbar-nav .router-link-exact-active {
+    color: rgba(0, 0, 0, .5);
+    border-bottom: 3px solid #29d!important;
+    margin-right: 5px!important;
+    padding: 10px 30px!important;
+    color: #29d!important;
+    opacity: .9!important;
+}
+
+a.router-link-active {
+    color: #000!important;
+    border-bottom: 3px solid #29d!important;
+}
+
+.router-link-active.router-link-exact-active.navbar-brand {
+    background: transparent!important;
+    border-bottom: 0px !important;
+}
